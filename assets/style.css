@@ -1,0 +1,95 @@
+body {
+  background-color:white;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  left:0px;
+  right:0px;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+  color: white;
+}
+li:hover{
+  color: black;
+  background-color: white;
+}
+.top-bar {
+  background: darkblue;
+  height: 20px;
+  color: White;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 15px lightblue;
+}
+
+.top-bar p {
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  font-size: 15px;
+}
+
+#topnav-Icon {
+  display: inline-block;
+  position: inherit;
+  margin: auto;
+  width: 2%;
+}
+
+nav {
+  height: 20px;
+  background-color: grey;
+}
+
+.myInput {
+  background-image: url('/css/searchicon.png');
+  /* Add a search icon to input */
+  background-position: 10px 12px;
+  /* Position the search icon */
+  background-repeat: no-repeat;
+  /* Do not repeat the icon image */
+  width: 20%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid black;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
+  margin: auto;
+  background-color: white;
+}
+
+#mapi-Logo {
+  width: 20%;
+}
+
+.content-nav {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.main-content {
+  background-color: pink;
+  width: 100%;
+  height: 1000px;
+
+}
+
+.input-section {
+
+}

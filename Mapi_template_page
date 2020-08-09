@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Test</title>
+  <script src="assets/main.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <img id="topnav-Icon" src="https://img.icons8.com/nolan/64/truck.png" />
+      <p> Free standard shipping with any $125 order (US retail orders only)</p>
+    </div>
+    <section class="content-nav">
+      <img id="mapi-Logo" src="images/MAPILogoGold2017.png" alt="logo">
+      <div class="myInput">
+        <input placeholder="Search">
+      </div>
+      <div class="contact-icons">
+        <a href="#"><img src="https://img.icons8.com/carbon-copy/20/000000/phone.png" alt="Phone Icon"></a>
+        <a href="#"><img src="https://img.icons8.com/cotton/20/000000/chat.png" alt="Message Icon" /></a>
+        <a href="#" target="_blank">Register</a>
+        <a href="#"><img src="https://img.icons8.com/carbon-copy/20/000000/shopping-cart-promotion.png" alt="Shopping Cart Icon"></a>
+        <a href="#" target="_blank">Log In</a>
+      </div>
+    </section>
+    <nav>
+      <ul class="main-nav">
+        <li>SUPPLEMENTS</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>FOOD & DRINK</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>NATURAL BEAUTY</li>
+        <li>AROMATHERAPY & HOME</li>
+        <li>DOSHAS</li>
+        <li>WELLBEING NEED</li>
+        <li>EXPLORE AYURVEDA</li>
+        <li>OFFERS</li>
+      </ul>
+    </nav>
+  </header>
+  <section class="image-carousel">
+
+  </section>
+  <section class="main-content">
+    <p>hello</p>
+  </section>
+
+</body>
+
 </html>
