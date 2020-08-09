@@ -96,6 +96,13 @@ nav {
   margin-top: 10%;
   position: fixed;
 }
+
+#myCarousel{
+  width:100%;
+}
+.carousel-inner>.item>img {
+  width:100%;
+}
 .input-section {
 
 }
