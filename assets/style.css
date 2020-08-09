@@ -89,7 +89,11 @@ nav {
   height: 1000px;
 
 }
-
+.image-carousel{
+  height:60px;
+  left:0px;
+  right:0px;
+}
 .input-section {
 
 }
