@@ -6,9 +6,11 @@ body {
 
 header {
   position: fixed;
+  overflow: hidden;
   width: 100%;
-  left:0px;
-  right:0px;
+  top:0px;
+  z-index: 10000;
+  background-color: white;
 }
 .main-nav {
   display: flex;
@@ -26,11 +28,9 @@ li:hover{
 }
 .top-bar {
   background: darkblue;
-  height: 20px;
   color: White;
   text-align: center;
   border: 1px solid;
-  padding: 10px;
   box-shadow: 5px 10px 15px lightblue;
 }
 
@@ -84,9 +84,11 @@ nav {
 }
 
 .main-content {
+  display: block;
   background-color: pink;
   width: 100%;
   height: 1000px;
+  position: relative;
 
 }
 .image-carousel{
@@ -94,15 +96,63 @@ nav {
   right:0px;
   width: 100%;
   margin-top: 10%;
-  position: fixed;
+  position: relative;
+  display: block;
 }
 
 #myCarousel{
   width:100%;
+  display: block;
 }
-.carousel-inner>.item>img {
+.carousel-inner>.item>a>img {
   width:100%;
+  display: block;
 }
 .input-section {
 
+}
+.main-content{
+  text-align: center;
+  display: block;
+  line-height: 1.5;
+}
+.review-section{
+  background-color: white;
+  display: grid;
+ grid-column-gap: 50px;
+ grid-row-start: 1;
+ grid-row-end: 3;
+ display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.lower-section {
+  caption-side: bottom;
+  width: 100%;
+}
+.lower-section img{
+  width: 20%;
+  height: 20%;
+}
+.product-ranges {
+  display: flex;
+  flex-direction: row;
+}
+.mission-statement{
+  max-width: 100%;
+  padding: 20px 80px;
+  background-color: white;
+}
+
+footer{
+  right:0;
+  left:0;
+  text-align: center;
+  background-color: white;
+  position:relative;
+   bottom:0;
+   width:100%;
+   height:60px;
 }
