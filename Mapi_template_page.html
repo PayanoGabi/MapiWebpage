@@ -8,9 +8,15 @@
   <script src="assets/main.js"></script>
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -98,70 +104,96 @@
   </section>
   <section class="main-content">
     <div class="mission-statement">
-    <p>Our mission at vpk by Maharishi Ayurveda is to serve your health needs with the best ayurvedic herbal products.</p>
-    <p>Through powerful formulations and ancient lifestyle tips, our aim is to bring balance to your body and life.</p>
+      <p>Our mission at vpk by Maharishi Ayurveda is to serve your health needs with the best ayurvedic herbal products.</p>
+      <p>Through powerful formulations and ancient lifestyle tips, our aim is to bring balance to your body and life.</p>
     </div>
-    <div class="review-section">
-      <div class="">
-        <p>What people are saying</p>
-        <img src="images/reviewimg1.jpg" alt="">
-        <h2>Name</h2>
-        <p>Myself, my husband and my two teenage children have been taking this product for the last 3 months and it certainly seems to have ...</p>
-        <a href="#">Read more</a>
+    <section class="review-section">
+      <h2>What People Are Saying</h2>
+      <hr>
+      <div class="product-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/reviewimg1.jpg" alt="">
+            <h3>Name</h3>
+            <p>Myself, my husband and my two teenage children have been taking this product for the last 3 months and it certainly seems to have ...</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="carousel-item">
+            <img src="images/reviewimg2.jpg" alt="">
+            <h3>Name</h3>
+            <p>I order 4 at a time to keep in stock at home and Office. I add it to soup, stir fry, and rice. Always an amazing taste!!! Healing ...</p>
+            <a href="#">Read more</a>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/reviewimg3.jpg" alt="">
+            <h3>Name</h3>
+            <p>I am a 60 + year old women with very sensitive skin and develop a rash with most skin care products. VPK's face cream I like very ...</p>
+            <a href="#">Read more</a>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        </div>
+    </section>
+
+    <section class="lower-section">
+        <h4>Our Product Ranges</h4>
+        <div class="product-ranges">
+        <a href="#"><img src="images/topsellers.jpg" alt=""></a>
+        <caption><a href="#">Top Sellers</a></caption>
+        <a href="#"><img src="images/digestion.jpg " alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/easy_self.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/emotional_bal.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
       </div>
-      <div class="">
-        <img src="images/reviewimg2.jpg" alt="">
-        <h2>Name</h2>
-        <p>I order 4 at a time to keep in stock at home and Office. I add it to soup, stir fry, and rice. Always an amazing taste!!! Healing ...</p>
-        <a href="#">Read more</a>
+      <h4>Get inspired about your health</h4>
+      <div class="get-inspired">
+        <a href="#"><img src="images/directory.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/discover.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/get_monthly.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/non_GMO.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
       </div>
-      <div class="">
-        <img src="images/reviewimg3.jpg" alt="">
-        <h2>Name</h2>
-        <p>I am a 60 + year old women with very sensitive skin and develop a rash with most skin care products. VPK's face cream I like very ...</p>
-        <a href="#">Read more</a>
+      <h4>Learn more about Ayurvedic Lifestyle</h4>
+      <div class="learn-more">
+        <a href="#"><img src="images/watch_the_video.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/read_the_blog.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
+        <a href="#"><img src="images/try_the_recipe.jpg" alt=""></a>
+        <caption><a href="#"></a></caption>
       </div>
-    </div>
-  </section>
-  <section class="lower-section">
-    <div class="product-ranges">
-      <h2>Our Prduct Ranges</h2>
-      <a href="#"><img src="images/topsellers.jpg" alt=""></a>
-      <caption><a href="#"></a></caption>
-      <a href="#"><img src="images/digestion.jpg " alt=""></a>
-      <caption><a href="#"></a></caption>
-      <a href="#"><img src="images/easy_self.jpg" alt=""></a>
-      <caption><a href="#"></a></caption>
-      <a href="#"><img src="images/emotional_bal.jpg" alt=""></a>
-      <caption><a href="#"></a></caption>
-    </div>
-    <div class="get-inspired">
-      <h2>Get inspired about your health</h2>
-      <a href="#"><img src="" alt=""></a>
-      <a href="#"><img src="" alt=""></a>
-      <a href="#"><img src="" alt=""></a>
-      <a href="#"><img src="" alt=""></a>
-    </div>
-    <div class="learn-more">
-      <h2>Learn more about Ayurvedic Lifestyle</h2>
-      <a href="#"><img src="" alt=""></a>
-      <a href="#"><img src="" alt=""></a>
-      <a href="#"><img src="" alt=""></a>
-    </div>
+    </section>
     <hr>
-  </section>
-  <footer>
-    <div class="social-icons">
+    <footer>
+      <div class="social-icons">
 
-    </div>
-    <div class="final-info">
-      <h2>YOUR AYURVEDIC LIFESTYLE GUIDE FOR A HEALTHY, ENERGIZED, RENEWED YOU</h2>
-      <p>vpk® by Maharishi Ayurveda wants to inspire you</p>
-      <p>get it weekly</p>
+      </div>
+      <div class="final-info">
+        <h2>YOUR AYURVEDIC LIFESTYLE GUIDE FOR A HEALTHY, ENERGIZED, RENEWED YOU</h2>
+        <p>vpk® by Maharishi Ayurveda wants to inspire you</p>
+        <p>get it weekly</p>
+      </div>
 
-    </div>
 
-  </footer>
+    </footer>
 
 </body>
 
